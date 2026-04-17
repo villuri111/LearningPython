@@ -1,0 +1,59 @@
+keywords
+variable,identifer
+print--object,end,sep,file and flush 
+Datatype
+--------
+1)primitive 
+2)non-primitive
+    1)List 
+    2)tuple 
+    3)string 
+    4)dict
+    5)set --frozen set 
+what is nonprimitative?
+---it will return address 
+LIST 
+----
+--it will be in order
+--mutable (can be changed)
+CRUD (create,read,update and delete)
+--it can also store different datatypes 
+represente- "[]"
+
+indexing 
+---------
+--it is accessing elements using position numbers
+1)positive indexing
+--starts from 0(left to right) 
+2)Negative indexing 
+--starts from -1(right to left)
+
+list slicing 
+------------
+synatx:
+L[start:end:step]
+
+list()--->it is used to create a list 
+[]--->faster,simple synatx,manual list 
+list()--slighly slower,useful conversion,used for iterables 
+
+methods in list 
+------------------
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+append-add single item 
+extend-add multiple items 
+insert--add at position 
+remove-delete by value 
+pop-delete by index 
+clear-remove all 
+index-Find position 
+count -count value 
+sort-sort list 
+reverse-Reverse list 
+copy-Copy list 
+
+tuple 
+------
+--immutable(cannot change after the creation)
+--represented by ( )
